@@ -1,0 +1,15 @@
+tbody tr td img{
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+img{
+    object-fit: cover;
+    max-width:  100%;
+}
+
+.carusel{
+    display: flex;
+    height: 80vh;
+}

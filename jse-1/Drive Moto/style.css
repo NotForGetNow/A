@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Staatliches:regular);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header1 ul li{
+    margin-left: 50px;
+    color: var(--, #2F3035);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.drive-moto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drive-moto span{
+    color: var(--, #2F3035);
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 9px;
+}
+
+.logo{
+    margin-bottom: 18%;
+    
+}
+
+.logo #logo-1{
+    position: absolute;
+    margin-left: -1%;
+    margin-top: -0.5%;
+}
+
+.logo #logo-3{
+    position: absolute;
+    margin-left: -0.3%;
+    margin-top: 0.35%;
+}
+
+.location span{
+    color: var(--, #2F3035);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    margin-right: 10%;
+}
+
+.icons div{
+    position: absolute;
+}
+
+.icons span{
+    color: rgb(151, 49, 49);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 325%;
+}
+
+.icons-number img{
+    margin-left: 300%;
+}
+
+.header2{
+    background: #F0F0F4;
+}
+
+.header2 ul{
+    display: flex;
+
+}
+
+.header2 ul li{
+    color: var(--, #2F3035);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.block-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.dots{
+    position: absolute;
+    right: 55%;
+    top: 57%;
+}
+
+.arrow-left{
+    position: absolute;
+    right: 84%;
+    top: 33%;
+}
+
+.arrow-right{
+    position: absolute;
+    right: 31.5%;
+    top: 33%;
+}
+
+.sale{
+    width: 265px;
+    height: 397px;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+}
